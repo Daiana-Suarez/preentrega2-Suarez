@@ -78,7 +78,7 @@ padding: 20px;
 .sec5{
     grid-area: sec5;
 }
-.row{
+.cambio{
     --bs-gutter-x: 1.5rem;
     --bs-gutter-y: 0;
     display: flex;
