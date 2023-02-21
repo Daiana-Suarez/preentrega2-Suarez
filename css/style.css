@@ -105,6 +105,190 @@ padding: 20px;
     margin-left: 100px;
 }
 /*TERMINA CSS INDEX*/
+/*EMPIEZA RESPONSIVE*/
+/*INDEX TABLET*/
+@media (max-width: 768px){
+    header{
+        width: 768px;
+    }
+    .grid1{
+        display: flex;
+        flex-direction: column;
+        width: 768px;
+    }
+    .sec1{
+        height: 50px;
+    }
+    .sec1 nav ul{
+        display: flex;
+    }
+    .sec1 nav ul li{
+        padding: 0;
+        margin: 0px 90px 100px 90px;
+    }
+    .sec1 nav ul li img{
+        height: 0px;
+        width: 0px;
+    }
+    .sec2{
+        padding: 0px;
+    }
+    .sec2 nav{
+        display: flex;
+    }
+    .sec2 nav ul{
+        display: flex;
+    }
+    .sec2 nav ul li{
+        padding: 0;
+        margin: 5px 60px 0px 50px;
+        width: 50px;
+        display: flex;
+    }
+    .sec2 nav ul{
+        margin: 0px 0px 0px 100px;
+        padding: 0px;
+        border: 0px;
+        height: 50px;
+        width: 0px;
+        display: flex;
+    }
+    .sec2 nav ul li a {
+        font-size: 16px;
+    }
+    .sec6{
+        height: 0px;
+        width: 0px;
+    }
+    .sec8{
+        height: 0px;
+        width: 0px;
+    }
+    .sec3{
+        height: 20px;
+        display: flex;
+    }
+    .sec4{
+        display: flex;
+        justify-content: flex-start;
+        padding: 0px 0px 0px 340px;
+        margin-top: 112px;
+        height: 250px;
+    }
+    .sec5{
+        display: flex;
+        justify-content: flex-end;
+        padding: 5px 10px
+    }
+    .sec7{
+        margin-top: 0px;
+        padding: 5px 0px;
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column-reverse;
+        height: 70px;
+        align-items: baseline;
+    }
+    .sec3{
+    padding: 0px 0px 0px;
+
+    }
+    .sec4{
+    width: 150px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    }
+}
+/*INDEX MOBILE*/
+@media (max-width:320px){
+header {
+    width: 320px;
+}
+.grid1{
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+}
+.sec1{
+    display:flex;
+    height: 52px;
+}
+.sec1 nav ul{
+    gap: 10px;
+}
+.sec1 nav ul li {
+    margin: 0px 10px 10px;
+}
+.sec1 nav ul li a {
+    font-size: 20px;
+}
+.sec2{
+    display:flex;
+    height: 200px;
+}
+.sec2 nav{
+    display: flex;
+}
+.sec2 nav ul{
+    flex-direction: column;
+}
+.sec2 nav ul li{
+    padding: 0;
+    margin: 5px 25px 10px;
+}
+.sec2 nav ul{
+    padding: 0px;
+    border: 0px;
+    height: 50px;
+    width: 0px;
+    gap: 10px;
+    display: flex;
+}
+.sec2 nav ul li a {
+    font-size: 16px;
+}
+.sec6{
+    height: 0px;
+    width: 0px;
+}
+.sec8{
+    height: 0px;
+    width: 0px;
+}
+.sec3{
+    height: 150px;
+    margin: 5px 10px 50px 10px;
+}
+.sec4{
+    margin: 5px 10px 35px 10px;
+    padding: 0px;
+}
+.sec7{
+    margin: 5px 10px 0px 10px;
+}
+.cards{
+    display: flex;
+    width: 300px;
+    height: 200px;
+    background-color: darksalmon;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px 20px 20px;
+    gap: 0px;
+    margin-left: 0px;
+    justify-content: space-around;
+}
+footer {
+    background-color: #906AB6;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    align-content: flex-start;
+}
+}
 /*EMPIEZA CSS QUIENES SOMOS*/
 .paraDiv{
     width: 200px;
@@ -119,7 +303,6 @@ padding: 20px;
     padding: 20px 30px 20px 30px;
     width: 90%;
 }
-/*SEGUNDA BATALLA NAVAL*/
 .grid2{
     display: grid;
     width: 100%;
@@ -222,9 +405,6 @@ padding: 20px;
     "secM2 sec6 secM5 secM5 secM5"
     ;
 }
-.container-fluid{
-    height: 100%;
-}
 .secM1{
     display: flex;
     flex-direction: column;
@@ -294,6 +474,141 @@ padding: 20px;
     grid-area: secM8;
 }
 /* TERMINA CSS QUE ES LA MEDIACION*/
+/*EMPIEZA RESPONSIVE QUE ES LA MEDIACION*/
+/*EMPIEZA TABLET*/
+@media (max-width: 768px){
+    header{
+        width: 768px;
+    }
+    .grid3{
+        display: flex;
+        flex-direction: column;
+        width: 768px;
+    }
+    .secM1{
+        height: 50px;
+        flex-direction: row ;
+        padding: 70px 0px 0px 10px;
+    }
+    .secM1 nav ul{
+        display: flex;
+    }
+    .secM1 nav ul li{
+        padding: 0;
+        margin: 40px 90px 100px 90px;
+    }
+    .secM1 nav ul li img{
+        height: 0px;
+        width: 0px;
+    }
+    .secM2{
+        padding: 0px;
+    }
+    .secM2 nav{
+        display: flex;
+    }
+    .secM2 nav ul{
+        display: flex;
+    }
+    .secM2 nav ul li{
+        padding: 0;
+        margin: 5px 60px 0px 80px;
+        width: 20px;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .secM2 nav ul{
+        margin: 0px 0px 0px 100px;
+        padding: 0px;
+        border: 0px;
+        height: 50px;
+        width: 0px;
+        display: flex;
+    }
+    .secM2 nav ul li a {
+        font-size: 16px;
+    }
+    .secM3{
+        display: block;
+        margin-left: 30px;
+    }
+    .secM3 h2{
+        padding-left: 190px;
+        padding-top: 20px;
+    }
+    .secM5{
+        display: flex;
+        height: 450px;
+        flex-direction: column;
+    }
+    .secM5 ul li iframe{
+        width: 738px;
+        height: 402px;
+    }
+}
+/*TERMINA TABLET*/
+/*EMPIEZA MOBILE*/
+/*INDEX MOBILE*/
+@media (max-width:320px){
+    header{
+        width: 320px;
+    }
+    .grid3{
+        display: flex;
+        flex-direction: column;
+        width: 320px;
+    }
+    .secM1{
+        display:flex;
+        height: 52px;
+    }
+    .secM1 nav ul{
+        gap: 10px;
+    }
+    .secM1 nav ul li {
+        margin: 0px 10px 10px;
+    }
+    .secM1 nav ul li a {
+        font-size: 20px;
+    }
+    .secM2{
+        display:flex;
+        height: 200px;
+    }
+    .secM2 nav{
+        display: flex;
+    }
+    .secM2 nav ul{
+        flex-direction: column;
+    }
+    .secM2 nav ul li{
+        padding: 0;
+        margin: 0px 80px 10px;
+    }
+    .secM2 nav ul{
+        padding: 0px;
+        border: 0px;
+        height: 50px;
+        width: 0px;
+        gap: 10px;
+        display: flex;
+    }
+    .secM2 nav ul li a {
+        font-size: 16px;
+    }
+    .secM3{
+        display: block;
+        margin-left: 30px;
+    }
+    .secM3 h2{
+        padding-left: 46px;
+    }
+    .secM5 ul li iframe{
+        width: 280px;
+        height: 402px;
+    }
+}
+/*TERMINA MOBILE*/
 /* EMPIEZA CSS ACTIVIDADES*/
 .grid4{
     display: grid;
@@ -535,4 +850,5 @@ section fieldset legend{
 .talleres{
     padding: 20px;
 }
+
 
