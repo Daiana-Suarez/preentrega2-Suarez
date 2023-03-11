@@ -118,7 +118,7 @@ padding: 20px;
 /*INDEX TABLET*/
 @media (max-width: 768px){
     header{
-        width: 768px;
+        max-width: 100%;
     }
     .grid1{
         display: flex;
@@ -212,12 +212,12 @@ padding: 20px;
 /*INDEX MOBILE*/
 @media (max-width:320px){
 header {
-    width: 320px;
+    max-width: 100%;
 }
 .grid1{
     display: flex;
     flex-direction: column;
-    width: 320px;
+    max-width: 100%;
 }
 .sec1{
     display:flex;
@@ -400,6 +400,186 @@ footer {
     padding: 20px;
     border-right: 2px solid black;
 }
+/*EMPIEZA RESPONSIVE QUIENES SOMOS*/
+/*QUIENES-SOMOS TABLET*/
+@media (max-width: 768px) {
+    header{
+        max-width: 100%;
+    }
+    .grid2{
+        display: flex;
+        flex-direction: column;
+        width: 768px;
+    }
+    .secQ1{
+        height: 50px;
+        padding: 0px;
+    }
+    .secQ1 nav ul{
+        display: flex;
+    }
+    .secQ1 nav ul li{
+        padding: 0;
+        margin: 0px 90px 100px 90px;
+    }
+    .secQ1 nav ul li img{
+        height: 0px;
+        width: 0px;
+    }
+    .secQ2{
+        padding: 0px;
+    }
+    .secQ2 nav{
+        display: flex;
+    }
+    .secQ2 nav ul{
+        display: flex;
+    }
+    .secQ2 nav ul li{
+        padding: 0;
+        margin: 5px 60px 0px 50px;
+        width: 50px;
+        display: flex;
+    }
+    .secQ2 nav ul{
+        margin: 0px 0px 0px 100px;
+        padding: 0px;
+        border: 0px;
+        height: 50px;
+        width: 0px;
+        display: flex;
+    }
+    .secQ2 nav ul li a {
+        font-size: 16px;
+    }
+    .secQ3 h2{
+        padding-left: 250px;
+    }
+    .secQ3 div{
+        margin-left: 70px;
+    }
+    .secQ10 h2{
+        padding-left: 100px;
+    }
+    .secQ10 div{
+        margin-left: 70px;
+    }
+    .secQ4{
+        width: auto;
+        height: auto;
+        padding-left: 50px;
+    }
+    .secQ5{
+        width: auto;
+        height: auto;
+        padding-left: 500px;
+    }
+    .secQ6{
+        width: auto;
+        height: auto;
+        padding-left: 50px;
+    }
+    .secQ7{
+        width: auto;
+        height: auto;
+        padding-left: 500px;
+    }
+    .secQ8{
+        width: auto;
+        height: auto;
+        padding-left: 50px;
+    }
+    .secQ9{
+        width: auto;
+        height: auto;
+        padding-left: 500px;
+    }
+}
+/*TERMINA QUIENES-SOMOS TABLET*/
+/*EMPIEZA QUIENES-SOMOS MOBILE*/
+@media (max-width: 320px) {
+    header{
+        max-width: 100%;
+    }
+    .grid2{
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+    }
+    .secQ1{
+        display:flex;
+        height: 52px;
+    }
+    .secQ1 nav ul{
+        gap: 10px;
+    }
+    .secQ1 nav ul li {
+        margin: 0px 10px 10px;
+    }
+    .secQ1 nav ul li a {
+        font-size: 20px;
+    }
+    .secQ2{
+        display:flex;
+        height: 200px;
+    }
+    .secQ2 nav{
+        display: flex;
+    }
+    .secQ2 nav ul{
+        flex-direction: column;
+    }
+    .secQ2 nav ul li{
+        padding: 0;
+        margin: 5px 25px 10px;
+    }
+    .secQ2 nav ul{
+        padding: 0px;
+        border: 0px;
+        height: 50px;
+        width: 0px;
+        gap: 10px;
+        display: flex;
+    }
+    .secQ2 nav ul li a {
+        font-size: 16px;
+    }
+    .secQ3 h2{
+        padding-left: 100px;
+    }
+    .secQ3 div {
+        margin-left: 10px;
+    }
+    .secQ10 h2 {
+        padding-left: 20px;
+    }
+    .secQ4{
+        padding-bottom: 20px
+    }
+    .secQ5{
+        padding-left: 50px;
+        padding-bottom: 20px
+    }
+    .secQ6{
+        padding-bottom: 20px
+    }
+    .secQ7{
+        padding-left: 50px;
+        padding-bottom: 20px
+    }
+    .secQ8{
+        padding-bottom: 20px
+    }
+    .secQ9{
+        padding-left: 50px;
+        padding-bottom: 20px
+    }
+    .secQ10 div {
+        margin-left: 10px;
+        padding-bottom: 20px
+    }
+}
+/*TERMINA QUIENES-SOMOS MOBILE*/
 /* EMPIEZA CSS QUE ES LA MEDIACION*/
 .grid3{
     display: grid;
@@ -484,6 +664,20 @@ footer {
 }
 /* TERMINA CSS QUE ES LA MEDIACION*/
 /*EMPIEZA RESPONSIVE QUE ES LA MEDIACION*/
+/*EMPIEZA QUE ES LA MEDIACION 1024*/
+@media (max-width: 1024px){
+    header{
+        max-width: 100%;
+    }
+}
+.secM5{
+    padding-left: 0px;
+}
+.sectionMulti iframe{
+    width: 600px;
+    height: 200px;
+}
+/*TERMINA 1024*/
 /*EMPIEZA TABLET*/
 @media (max-width: 768px){
     header{
@@ -556,6 +750,67 @@ footer {
     }
 }
 /*TERMINA TABLET*/
+/*EMPIEZA QUE ES LA MEDIACION 425*/
+@media (max-width: 425px) {
+    header{
+        max-width: 100%;
+    }
+    .grid3{
+        display: flex;
+        flex-direction: column;
+        width: 425px;
+    }
+    .secM1{
+        display:flex;
+        height: 52px;
+    }
+    .secM1 nav ul{
+        gap: 10px;
+    }
+    .secM1 nav ul li {
+        margin: 0px 30px 10px;
+    }
+    .secM1 nav ul li a {
+        font-size: 20px;
+    }
+    .secM2{
+        display:flex;
+        height: 200px;
+    }
+    .secM2 nav{
+        display: flex;
+    }
+    .secM2 nav ul{
+        flex-direction: column;
+    }
+    .secM2 nav ul li{
+        padding: 0;
+        margin-left: 138px;
+    }
+    .secM2 nav ul{
+        padding: 0px;
+        border: 0px;
+        height: 50px;
+        width: 0px;
+        gap: 10px;
+        display: flex;
+    }
+    .secM2 nav ul li a {
+        font-size: 16px;
+    }
+    .secM3 h2{
+        padding-left: 20px;
+    }
+    .secM5 ul li iframe {
+        width: 400px;
+        height: 402px;
+        padding-left: 20px;
+    }
+    footer{
+        flex-direction: column;
+    }
+}
+/*TERMINA QUE ES LA MEDIACION 425*/
 /*EMPIEZA MOBILE*/
 /*INDEX MOBILE*/
 @media (max-width:320px){
@@ -681,6 +936,137 @@ footer {
     gap: 40px;
 }
 /* TERMINA CSS ACTIVIDADES*/
+/*EMPIEZA ACTIVIDADES TABLET*/
+@media (max-width: 768px) {
+    header{
+        max-width: 100%;
+    }
+    .grid4{
+        display: flex;
+        flex-direction: column;
+        width: 768px;
+    }
+    .secA1{
+        height: 50px;
+        padding: 0px;
+    }
+    .secA1 nav ul{
+        display: flex;
+    }
+    .secA1 nav ul li{
+        padding: 0;
+        margin: 0px 90px 100px 90px;
+    }
+    .secA1 nav ul li img{
+        height: 0px;
+        width: 0px;
+    }
+    .secA2{
+        padding: 0px;
+    }
+    .secA2 nav{
+        display: flex;
+    }
+    .secA2 nav ul{
+        display: flex;
+    }
+    .secA2 nav ul li{
+        padding: 0;
+        margin: 5px 60px 0px 50px;
+        width: 50px;
+        display: flex;
+    }
+    .secA2 nav ul{
+        margin: 0px 0px 0px 100px;
+        padding: 0px;
+        border: 0px;
+        height: 50px;
+        width: 0px;
+        display: flex;
+    }
+    .secA2 nav ul li a {
+        font-size: 16px;
+    }
+    .secA3 h2{
+        padding-left: 250px;
+    }
+    .secA5{
+        height: auto;
+    }
+}
+/*TERMINA ACTIVIDADES TABLET*/
+/*EMPIEZA ACTIVIDADES MOBILE*/
+@media (max-width: 320px) {
+    header{
+        max-width: 100%;
+    }
+    .grid4{
+        display: flex;
+        flex-direction: column;
+        width: 320px;
+    }
+    .secA1{
+        display:flex;
+        height: 52px;
+    }
+    .secA1 nav ul{
+        gap: 10px;
+    }
+    .secA1 nav ul li {
+        margin: 0px 10px 10px;
+    }
+    .secA1 nav ul li a {
+        font-size: 20px;
+    }
+    .secA2{
+        display:flex;
+        height: 200px;
+    }
+    .secA2 nav{
+        display: flex;
+    }
+    .secA2 nav ul{
+        flex-direction: column;
+    }
+    .secA2 nav ul li{
+        padding: 0;
+        margin-left: 20px;
+    }
+    .secA2 nav ul{
+        padding: 0px;
+        border: 0px;
+        height: 50px;
+        width: 0px;
+        gap: 10px;
+        display: flex;
+    }
+    .secA2 nav ul li a {
+        font-size: 16px;
+    }
+    .secA3 h2 {
+        padding: 20px 0px 0px 60px;
+    }
+    .secA5{
+        height: auto;
+    }
+    .cambio {
+        --bs-gutter-x: 1.5rem;
+        --bs-gutter-y: 0;
+        display: flex;
+        margin-top: calc(-1 * var(--bs-gutter-y));
+        margin-right: 0px;
+        margin-left: 0px;
+        flex-direction: column;
+    }
+    .col-4 {
+        font-size: 20px;
+        width: 100%;
+    }
+    .col-8{
+        padding-left: 10px;
+    }
+}
+/*TERMINA ACTIVIDADES MOBILE*/
 /* EMPIEZA CSS CONTACTO*/
 .grid5{
     display: grid;
@@ -742,6 +1128,171 @@ footer {
     grid-area: secC6;
 }
 /* TERMINA CSS CONTACTO*/
+/*EMPIEZA CONTACTO 1024*/
+@media (max-width: 1024px) {
+    header{
+        max-width: 100%;
+}
+.secC6 iframe{
+    width: 700px;
+}
+}
+/*TERMINA CONTACTO 1024*/
+/*EMPIEZA CONTACTO TABLET*/
+@media (max-width: 768px) {
+    header{
+        max-width: 100%;
+    }
+    .grid5{
+        display: flex;
+        flex-direction: column;
+        width: 768px;
+    }
+    .secC1{
+        height: 50px;
+        padding: 0px;
+    }
+    .secC1 nav ul{
+        display: flex;
+    }
+    .secC1 nav ul li{
+        padding: 0;
+        margin: 0px 90px 100px 90px;
+    }
+    .secC1 nav ul li img{
+        height: 0px;
+        width: 0px;
+    }
+    .secC2{
+        padding: 0px;
+    }
+    .secC2 nav{
+        display: flex;
+    }
+    .secC2 nav ul{
+        display: flex;
+    }
+    .secC2 nav ul li{
+        padding: 0;
+        margin: 5px 60px 0px 50px;
+        width: 50px;
+        display: flex;
+    }
+    .secC2 nav ul{
+        margin: 0px 0px 0px 100px;
+        padding: 0px;
+        border: 0px;
+        height: 50px;
+        width: 0px;
+        display: flex;
+    }
+    .secC2 nav ul li a {
+        font-size: 16px;
+    }
+}
+/*EMPIEZA CONTACTO 425*/
+@media (max-width: 425px) {
+    header{
+        max-width: 100%;
+    }
+    .grid5{
+        display: flex;
+        flex-direction: column;
+        width: 425px;
+    }
+    .secC1{
+        display:flex;
+        height: 52px;
+    }
+    .secC1 nav ul{
+        gap: 10px;
+    }
+    .secC1 nav ul li {
+        margin: 0px 10px 10px;
+    }
+    .secC1 nav ul li a {
+        font-size: 20px;
+    }
+    .secC2{
+        display:flex;
+        height: 200px;
+    }
+    .secC2 nav{
+        display: flex;
+    }
+    .secC2 nav ul{
+        flex-direction: column;
+    }
+    .secC2 nav ul li{
+        padding: 0;
+        margin-left: 70px;
+    }
+    .secC2 nav ul{
+        padding: 0px;
+        border: 0px;
+        height: 50px;
+        width: 0px;
+        gap: 10px;
+        display: flex;
+    }
+    .secC2 nav ul li a {
+        font-size: 16px;
+    }
+    .secC6 iframe {
+        width: 400px;
+    }
+}
+/*TERMINA CONTACTO 425*/
+/*EMPIEZA CONTACTO MOBILE*/
+@media (max-width: 320px) {
+    header{
+        max-width: 100%;
+    }
+    .grid5{
+        display: flex;
+        flex-direction: column;
+        width: 320px;
+    }
+    .secC1{
+        display:flex;
+        height: 52px;
+    }
+    .secC1 nav ul{
+        gap: 10px;
+    }
+    .secC1 nav ul li {
+        margin: 0px 10px 10px;
+    }
+    .secC1 nav ul li a {
+        font-size: 20px;
+    }
+    .secC2{
+        display:flex;
+        height: 200px;
+    }
+    .secC2 nav{
+        display: flex;
+    }
+    .secC2 nav ul{
+        flex-direction: column;
+    }
+    .secC2 nav ul li{
+        padding: 0;
+        margin-left: 20px;
+    }
+    .secC2 nav ul{
+        padding: 0px;
+        border: 0px;
+        height: 50px;
+        width: 0px;
+        gap: 10px;
+        display: flex;
+    }
+    .secC2 nav ul li a {
+        font-size: 16px;
+    }
+}
+/*TERMINA CONTACTO MOBILE*/
 /*CSS GENERAL*/
 p {
 font-family: 'Rubik', sans-serif;
